@@ -1,0 +1,43 @@
+﻿*****README*****
+
+Mudanças da versão de 11/07 para 19/07:
+> Todas as telas estão funcionando corretamente
+> Relatórios estão sendo gerados corretamente, com a nota de que
+  alguns relatórios geram PDFs contendo apenas dados respectivos ao dia atual,
+  pois podem possuir uma quantidade de dados muito superior a outros relatórios.
+
+Padrões de projeto:
+  - MVC : Geral
+  - DAO : Dentro do Model
+    > Utiliza banco de dados em MySQL.
+  - Singleton : Dentro do Model.Logic.NewSaleLogic
+    > Permite apenas que uma venda esteja instanciada durante a aplicação.
+  - Decorator : Dentro do Model.ReportLogic
+    > Utilizado para gerar diferentes tipos de relatórios.
+
+Como é utilizado o modelo DAO, dependemos de um banco de dados MySQL,
+este está sendo hosteado em um site que opera gratuitamente, e em
+certo momento tivemos problemas de o site não estar acessível, ou o
+banco ter expirado. Seguem algumas especificações para acesso caso haja
+algum problema:
+  - Server: sql10.freemysqlhosting.net
+  - Name: sql10185589
+  - Username: sql10185589
+  - Password: W7wDb7kg2l
+  - Port number: 3306
+
+Login disponível para uso:
+  - Usuário: 'admin' (sem aspas)
+  - Senha:   'admin' (sem aspas)
+
+Bitbucket: https://bitbucket.org/tecnicas1/reptecnicas.git
+
+Equipe:
+  > Adriano Gadelha    @384339
+  > Lucas Barros       @384362
+  > Lucas Pereira      @384364
+  > Marcelo Aragão     @384369
+  > Marcelo Brasileiro @384370
+  > Victor Dantas      @384385
+
+Contato: lucastorres@alu.ufc.br/lucast0rr3s@gmail.com

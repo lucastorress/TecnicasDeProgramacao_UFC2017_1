@@ -1,0 +1,23 @@
+Sistema:
+	Cadastrar Usuário/Vendedor
+	Alterar Usuário/Vendedor
+	Cadastrar Loja
+	Alterar Loja
+	Gerar/Imprimir Relatório
+Vendas:
+	Nova Venda
+	Fluxo de Caixa
+	Controle de Estoque
+Produtos:
+	Cadastrar Produto
+	Alterar Produto
+	Procurar Produto
+Pedidos:
+	Visualizar Pedido
+	Alterar Pedido
+Clientes:
+	Cadastrar Cliente
+	Alterar Cliente
+Transportadora:
+	Cadastrar Transportadora
+	Alterar Transportadora
